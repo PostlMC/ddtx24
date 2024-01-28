@@ -4,13 +4,13 @@ This repo contains:
 
 - A Poetry environment for running notebooks from the two workshops I attended at
   [Data Day Texas][ddtx] 2024 along with a few minor tweaks to get things working
-- The few photos I took from a couple of talks. Ideally, {[Worthy][worthy], George} will
-  PR their notes/photos in as well.
+- The few photos I took from a couple of talks. Ideally, {[worthyl][worthyl],
+  [gstrat43][gstrat43]} will PR their notes/photos in as well.
 - The original summary for each session from the [ddtx site][ddtx].
 
 Where repos are linked, just clone 'em in this directory for links into each to work.
 
-I used to [post][ddtx17] [ddtx][ddtx20] [notes][ddtx21] [as][ddtx22] [gists][ddtx23],
+I used to [post][ddtx17] [ddtx][ddtx19] [notes][ddtx20] [as][ddtx22] [gists][ddtx23],
 but since there are notebooks from the workshops this time around, I figured why not
 share what I did to get them running. (It's not a lot, but still...)
 
@@ -158,12 +158,13 @@ Technically, this is from a prior conference, but it looks like the same content
 This one ran without modification.
 
 [ddtx]: https://datadaytexas.com/
-[ddtx23]: https://gist.github.com/PostlMC/a9812e7c46efaa82611e6a71c0b574dc
-[ddtx22]: https://gist.github.com/PostlMC/fb86b651a23acd71eb914fed37441070
-[ddtx20]: https://gist.github.com/PostlMC/5974fa36b1a4ade9783daeb7658490f8
-[ddtx21]: https://gist.github.com/PostlMC/cbcf6dedcefb2686d799912d467c191d
 [ddtx17]: https://gist.github.com/PostlMC/2aa97e4874f19529568a1b70e12a8aab
-[worthy]: https://github.com/worthyl
+[ddtx19]: https://gist.github.com/PostlMC/cbcf6dedcefb2686d799912d467c191d
+[ddtx20]: https://gist.github.com/PostlMC/5974fa36b1a4ade9783daeb7658490f8
+[ddtx22]: https://gist.github.com/PostlMC/fb86b651a23acd71eb914fed37441070
+[ddtx23]: https://gist.github.com/PostlMC/a9812e7c46efaa82611e6a71c0b574dc
+[worthyl]: https://github.com/worthyl
+[gstrat43]: https://github.com/gstrat43
 [rashidi]: https://www.linkedin.com/in/sol-rashidi-a672291/
 [robinson]: https://www.linkedin.com/in/seankrobinson/
 [graphable]: https://www.graphable.ai/
