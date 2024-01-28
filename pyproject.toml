@@ -1,0 +1,26 @@
+# There's no actual module, so use the --no-root flag to set up the environment:
+#   poetry install --no-root
+
+[tool.poetry]
+name = "ddtx24"
+version = "0.1.0"
+description = "Data Day Texas 2024"
+authors = ["Scott Thompson <69859+PostlMC@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12"
+jupyter = "^1.0.0"
+pandas = "^2.2.0"
+graphdatascience = "^1.9"
+scikit-learn = "^1.4.0"
+matplotlib = "^3.8.2"
+seaborn = "^0.13.2"
+xgboost = "^2.0.3"
+python-dotenv = "^1.0.1"
+dowhy = "^0.11.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
