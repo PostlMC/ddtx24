@@ -97,20 +97,10 @@ huge untapped opportunity to apply these patterns to shape more positive outcome
 Simply put, we are wasting insights hiding in existing data that can help grow revenue,
 increase resiliency and safety, and improve lives.
 
-In this session, Amy Hodler will share the common forms of power within various networks
-ranging from IT and software systems to social, biological, and financial ecosystems.
-She'll show how companies like LinkedIn and Google have revealed the structural patterns
-of influence using network analysis and graph analytics. Then she'll delve into the
-concept of centrality and how it's used to combat terrorism, cyberattacks, and
-infectious diseases. And we'll look at how this science of measuring importance is
-evolving to be more readily applied to different needs.
+In this session, Amy Hodler will share the common forms of power within various networks ranging from IT and software systems to social, biological, and financial ecosystems.
+She'll show how companies like LinkedIn and Google have revealed the structural patterns of influence using network analysis and graph analytics. Then she'll delve into the concept of centrality and how it's used to combat terrorism, cyberattacks, and infectious diseases. And we'll look at how this science of measuring importance is evolving to be more readily applied to different needs.
 
-From identifying key actors to strategies for using control points, you'll learn about
-different approaches and tools for moving beyond predictive analytics to enacting
-change. Finally, Amy will examine ethical considerations and explore the responsible use
-of technology to influence power dynamics. You'll walk away with practical knowledge
-about uncovering power and influence patterns, along with methods to actively shape
-positive outcomes.
+From identifying key actors to strategies for using control points, you'll learn about different approaches and tools for moving beyond predictive analytics to enacting change. Finally, Amy will examine ethical considerations and explore the responsible use of technology to influence power dynamics. You'll walk away with practical knowledge about uncovering power and influence patterns, along with methods to actively shape positive outcomes.
 
 ![IMG](./img/IMG_5166.png)
 ![IMG](./img/IMG_5167.png)
@@ -157,6 +147,48 @@ Technically, this is from a prior conference, but it looks like the same content
 
 This one ran without modification.
 
+(worthy): I had to make a few modifications on my system to get this to work.  Specifically I had to do the following to get graphviz and pygraphviz working correctly.  But for the most part, this ran without issue. 
+
+```brew install graphviz
+python -m pip install \
+    --global-option=build_ext \
+    --global-option="-I$(brew --prefix graphviz)/include/" \
+    --global-option="-L$(brew --prefix graphviz)/lib/" \
+    pygraphviz
+```
+
+## Using LLMs to Fight Health Insurance Denials: From Data Synthesis to Production
+
+Speaker: [Holden Karau][holden]
+
+Slides: [Fight Health Insurance w/ LLMs][health-insurance-slides]
+
+This talk will cover every step of building fine tuning LLM and running in production. I'll start with talking about how we collected the data, and worked around the lack of good public datasets for what we were trying to accomplish. Then we'll dive into the fine tuning, looking at the different model options and why we chose what we chose. Finally, you'll get to see it running in production – along with the sketchy hardware I bought so it didn't cost an arm and a leg.
+Almost all of us have had an unfair health insurance denial at some point, and for health care professionals dealing with health insurance denials can quickly become a full time job. As a trans person I've had more than my share, and my friends have seen more than their fair share of denials for everything from routine care to gender affirming care. Even if you have not had to deal with health insurance denials yet, ask around in your family and social circle and you won't need to go far.
+
+With some insurance companies allegedly using AI to unfairly deny claims (with over 90% false positive rates), it's time that the consumers are able to fight back. Many less than scrupulous insurers depend on the appeals process being too complicated. Thankfully, with LLMs we can lower the barrier to appeal, and if things go really really well maybe we can increase the cost to insurance companies for denying our claims.
+
+Excellent presentation - Holden discussed some options about choosing a good, low footprint AI Model ([Mistral AI][mistral]) and with the troubles with generating a rich enough training model from a sparse set of available training material.
+
+In another post almost two weeks after DDTX24, Holden reposted the following "how to get started" links inside the core Mistral documentation:
+
+- [Prompting][mistral-prompting]
+- [RAG][mistral-rag]
+
+## **Data Architecture Keynote**: What Data Architects and Engineers can learn from Library Science
+
+Speaker: [Jessica Talisman][talisman]
+
+Presentation: [Youtube - data-arch-keynote][data-arch-keynote]
+
+Data architecture and information science are fundamental to all things digital. The HTTP protocol, underlying the internet itself, was designed to facility the organization and sharing of academic research. From computer hardware systems to enterprise software, data architecture is a base requirement. But what are the essential components that define an information system? Controlled vocabularies, data catalogs, thesauri, taxonomies, ontologies and knowledge graphs are the building blocks that make up the academic discipline of Information & Library Science.
+
+Library and Information Science (LIS) may seem like a niche domain, and it is. Coming from a discipline founded upon ambiguity, information scientists specialize in the art of disambiguation. Resource description is a core element of LIS, responsible for cleaning, defining, classifying, cataloging and structuring data. Operationalized, resource description is evident through metadata, data catalogs, schemas, records and repositories. Search systems rely on resource description for findability, access, provenance, system reconciliation and usage metrics. Knowledge organization is born out of resource description, when context and meaning can be derived from the networks of resources being described. For Data Engineers, an understanding of information science is a superpower, especially in the age of AI. Need to create a valid classification structure? A framework for a data catalog? Create transformers to reconcile schemas and entities? What about property graphs and knowledge graphs? In this talk, we will demystify the fundamentals of information classification systems, and delve into how information science can work synergistically with data engineering.
+
+*** Comments
+
+(WPL): This started off very slow and did not get very deep.  Given that Information Architecture has now been subsumed in the UX field, the talk centered more on the user perspective with descriptions of ontology, findability, and the need for classification.  
+
 [ddtx]: https://datadaytexas.com/
 [ddtx17]: https://gist.github.com/PostlMC/2aa97e4874f19529568a1b70e12a8aab
 [ddtx19]: https://gist.github.com/PostlMC/cbcf6dedcefb2686d799912d467c191d
@@ -169,9 +201,16 @@ This one ran without modification.
 [robinson]: https://www.linkedin.com/in/seankrobinson/
 [graphable]: https://www.graphable.ai/
 [hodler]: https://www.linkedin.com/in/amyhodler/
+[talisman]: https://www.linkedin.com/in/jmtalisman/
 [graphgeeks]: https://www.graphgeeks.org/
 [yi]: https://www.linkedin.com/in/michelleyulleyi/
 [causal-slides]: ./causal-graph-pywhy/ODSC%202023-%20Causal-Graph-PyWhy.pdf
 [causality]: http://bayes.cs.ucla.edu/BOOK-2K/
 [do-calculus]: https://pypi.org/project/do-calculus/
 [ferenc]: https://www.inference.vc/untitled/
+[health-insurance-slides]: https://bit.ly/hkHealthDDTX2024
+[holden]: https://github.com/holdenk
+[mistral]: https://mistral.ai/
+[mistral-rag]: https://docs.mistral.ai/guides/basic-RAG/
+[mistral-prompting]: https://docs.mistral.ai/guides/prompting-capabilities/
+[data-arch-keynote]: https://youtu.be/f1J2yJLyEpo?si=lssYCQj-uuuc_SQ1
