@@ -164,8 +164,8 @@ Library and Information Science (LIS) may seem like a niche domain, and it is. C
 
 ([Worthy][worthy]): Some of the other speakers we did not see have shared their slides.  Out of completeness, wanted to post them here:
 
-[Jonathan Mugan][mugan] - [Practical Large Language Models: Using LLMs in Your Business With Python][llm-with-python]
-[Susan Shu Chang][susan-shu-chang] - [Distilling the meaning of language - How vector embeddings work][vector-embeddings]
+* [Jonathan Mugan][mugan] - [Practical Large Language Models: Using LLMs in Your Business With Python][llm-with-python]
+* [Susan Shu Chang][susan-shu-chang] - [Distilling the meaning of language - How vector embeddings work][vector-embeddings]
 
 [causal-slides]: ./causal-graph-pywhy/ODSC%202023-%20Causal-Graph-PyWhy.pdf
 [causality]: http://bayes.cs.ucla.edu/BOOK-2K/
