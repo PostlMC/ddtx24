@@ -315,4 +315,4 @@ Former Gartner Analyst and Profisee Head of Data Strategy, Malcolm Hawker is a r
 ![IMG](img/IMG_0883.png)
 ![IMG](img/IMG_0884.png)
 ![IMG](img/IMG_0885.png)
-![IMG](img/MG_0886.png)
+![IMG](img/IMG_0886.png)
