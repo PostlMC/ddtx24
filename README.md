@@ -283,3 +283,36 @@ Out of completeness, wanted to post them here:
     https://docs.google.com/presentation/d/18XytA8m04WZFao1DYX18huA7ESwDVqG6sBLZTddJnew/edit#slide=id.p
 [worthyl]: https://github.com/worthyl
 [yi]: https://www.linkedin.com/in/michelleyulleyi/
+
+[data-arch-keynote]: https://youtu.be/f1J2yJLyEpo?si=lssYCQj-uuuc_SQ1
+[hawker]:https://www.linkedin.com/in/malhawker/
+
+## Data Product Chaos
+Speaker: [Malcom Hawker][hawker]
+
+Former Gartner Analyst and Profisee Head of Data Strategy, Malcolm Hawker is a recognized thought leader and one of the industry’s foremost authorities on the topics of data strategy, data governance, and master data management. As the co-author of the last three Gartner MDM Magic Quadrant™ documents, Malcolm has consulted with thousands of CDO's and other data leaders from across the globe on their biggest data related challenges. In a career that spans three decades, Malcolm has held executive-level IT and Product leadership roles at F500 companies, and has a unique combination of experience as a leader, implementer, vendor, and consultant for enterprise-class data solutions. Having lived in Austin for a big portion of his professional life, Malcolm has deep ties to Texas and the amazing data professionals that call it home.
+
+(GLS): This was an interesting talk delving into the facct that data mesh was not the solution companies thought it was going to be. Rather, data products were spawned as a byproduct to create a data product role within organizations.
+
+![IMG](img/IMG_0862.png)
+![IMG](img/IMG_0863.png)
+![IMG](img/IMG_0864.png)
+![IMG](img/IMG_0865.png)
+![IMG](img/IMG_0867.png)
+![IMG](img/IMG_0868.png)
+![IMG](img/IMG_0869.png)
+![IMG](img/IMG_0870.png)
+![IMG](img/IMG_0871.png)
+![IMG](img/IMG_0872.png)
+![IMG](img/IMG_0873.png)
+![IMG](img/IMG_0875.png)
+![IMG](img/IMG_0876.png)
+![IMG](img/IMG_0877.png)
+![IMG](img/IMG_0878.png)
+![IMG](img/IMG_0879.png)
+![IMG](img/IMG_0881.png)
+![IMG](img/IMG_0882.png)
+![IMG](img/IMG_0883.png)
+![IMG](img/IMG_0884.png)
+![IMG](img/IMG_0885.png)
+![IMG](img/MG_0886.png)
